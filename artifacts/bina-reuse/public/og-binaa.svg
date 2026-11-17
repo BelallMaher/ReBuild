@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+ <rect width="1200" height="630" fill="#e8e2d4"/>
+ <path d="M0 495 1200 380v250H0z" fill="#285447"/>
+ <circle cx="950" cy="175" r="125" fill="#d4b98d" opacity=".55"/>
+ <path d="M690 115h290v295H690z" fill="#877159" opacity=".9"/>
+ <path d="M715 145h240v18H715zm0 52h240v13H715zm0 38h240v13H715z" fill="#f2e6d0" opacity=".6"/>
+ <text x="1080" y="220" text-anchor="end" direction="rtl" font-family="sans-serif" font-size="88" font-weight="700" fill="#213a33">بِناء</text>
+ <text x="1080" y="294" text-anchor="end" direction="rtl" font-family="sans-serif" font-size="34" fill="#526d5f">مواد فائضة، فرصة جديدة</text>
+ <text x="70" y="565" direction="rtl" font-family="sans-serif" font-size="25" fill="#f4eddf">سوق سعودي لمواد البناء وإعادة الاستخدام</text>
+</svg>

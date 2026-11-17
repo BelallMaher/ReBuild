@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/bina-reuse/"
+title = "بِناء | سوق مواد البناء المستدامة"
+description = "منصة عربية لبيع وشراء فائض مواد البناء وإعادة استخدامها، مع تصفح المنتجات وإدارة الطلبات والتوعية بالاستدامة."
+version = "1.0.0"
+id = "artifacts/bina-reuse"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/bina-reuse/" ]
+localPort = 21136
+
+[services.development]
+run = "pnpm --filter @workspace/bina-reuse run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/bina-reuse", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/bina-reuse/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21136"
+BASE_PATH = "/bina-reuse/"
